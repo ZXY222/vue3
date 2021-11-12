@@ -1,9 +1,9 @@
 <template>
+  <div>
+    <studyCustomRef></studyCustomRef>
+  </div>
 </template>
 
-<script>
-
-export default {
-  name: 'App'
-}
+<script setup>
+import studyCustomRef from './components/studyCustomRef.vue';
 </script>
